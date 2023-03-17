@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho {
     background-color: #00dabd;
     color:rgb(0, 0, 0);
@@ -9,4 +14,11 @@
     .cabecalho-imagem {
         width: 13%;
     }
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
